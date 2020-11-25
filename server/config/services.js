@@ -39,26 +39,23 @@
     bundle: 'bundle.js',
   }
 */
+// '/res/:reservaition_id/reservations'
+// '/listings/:id/reviews'
 
 module.exports = {
   service1: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3001',
-    bundle: 'app.js',
+    api: '/:id/reservations',
+    url: 'http://13.57.221.104:3001',
+    bundle: '/:id/bundle.js',
   },
   service2: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    api: '/:id/reviews',
+    url: 'http://54.176.13.220:3002',
+    bundle: '/:id/bundle.js',
   },
-  service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
-  },
-  service4: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3004',
-    bundle: 'app.js',
-  },
+  // service3: {
+  //   api: 'FIX_ME',
+  //   url: 'http://localhost:3003',
+  //   bundle: 'app.js',
+  // },
 };
